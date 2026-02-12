@@ -1,5 +1,24 @@
 # SEB-model
 
+## Requirements
+
+This project uses **Python 3.11.8**. Before running the notebooks, install the following packages:
+
+```
+numpy==1.26.4
+matplotlib==3.8.2
+torch==2.1.2
+pandas==2.2.1
+scipy==1.12.0
+xarray==2023.12.0
+```
+
+You can install all required packages using:
+
+```
+pip install -r requirements.txt
+```
+
 ## Overview
 
 This repository contains code for a simple land surface model. Each folder contains Jupyter notebooks for the forward/inverse models, output files, and code and figures for visualising results. Below is a summary of the contents:
